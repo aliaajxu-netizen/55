@@ -312,7 +312,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .home-steps-card {
   background-color: var(--color-card-bg);
-  border: 1px solid var(--madrasati-border);
+  border: 1px solid var(--color-border);
   border-radius: 20px;
   width: 100%;
   max-width: 820px;
@@ -327,8 +327,8 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   text-align: center;
   margin-bottom: 1.5rem;
-  color: var(--madrasati-dark-ink);
-  border-bottom: 1px solid var(--madrasati-border);
+  color: var(--color-text-main);
+  border-bottom: 1px solid var(--color-border);
   padding-bottom: 0.85rem;
 }
 
@@ -348,8 +348,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .home-steps-num {
-  background-color: var(--madrasati-soft-lavender);
-  color: var(--madrasati-purple);
+  background-color: var(--color-accent-bg);
+  color: var(--color-primary);
   font-weight: 700;
   width: 32px;
   height: 32px;
@@ -362,7 +362,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .home-steps-text {
-  color: var(--madrasati-dark-ink);
+  color: var(--color-text-main);
   font-weight: 500;
   line-height: 1.6;
 }
@@ -1923,7 +1923,7 @@ body {
 .achievement-badge-card.badge-locked .badge-image-container {
   background: var(--madrasati-soft-lavender);
   color: var(--madrasati-soft-gray);
-  border: 3px dashed var(--madrasati-border);
+  border: 3px dashed var(--color-border);
 }
 
 /* Ribbon badge on top */
